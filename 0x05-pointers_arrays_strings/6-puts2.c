@@ -14,7 +14,7 @@ void puts2(char *str)
 	while (str[i] != '\0')
 		i++;
 
-	len -= 1;
+	i -= 1;
 
 	for (; a <= i; a += 2)
 		_putchar(str[a]);
