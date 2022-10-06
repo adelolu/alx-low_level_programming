@@ -38,7 +38,8 @@ int main(int argc, char **argv)
 			}
 		}
 	}
-	else {
+	else 
+	{
 		printf("Error\n");
 		return (1);
 	}
