@@ -10,10 +10,13 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc--)
-	{
-		printf("%s\n", *argv++);
-	}
+	int num = 0;
 
+	while (num < argc)
+	{
+		printf("%s\n", *(argv + num));
+		num++;
+		*argv++;
+	}
 	return (0);
 }
