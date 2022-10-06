@@ -12,7 +12,7 @@
 
 int main(int argc, char **argv)
 {
-	int amount, cents = 0;
+	int amount, cents = 0, i, j;
 	int value[5] = {25, 10, 5, 2, 1};
 
 	if (argc == 2)
