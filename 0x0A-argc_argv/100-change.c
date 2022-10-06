@@ -12,7 +12,7 @@
 
 int main(int argc, char **argv)
 {
-	int amount, cents = 0, i, j;
+	int amount, cents = 0, i;
 	int value[5] = {25, 10, 5, 2, 1};
 
 	if (argc == 2)
@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 		{
 			printf("0\n");
 		}
-		for (j = 0; j < 5; j++)
+		for (i = 0; i < 5; i++)
 		{
 			if (value[i] <= amount)
 			{
@@ -37,7 +37,7 @@ int main(int argc, char **argv)
 			}
 		}
 	}
-	else 
+	else
 	{
 		printf("Error\n");
 		return (1);
